@@ -10,7 +10,7 @@ print("PARA SAQUE, APENAS NOTAS DE:", end="")
 print(" R$1, R$10, R$20 e R$50")
 sleep(2)
 
-saque = int(input("\nQual valor você quer sacar? "))
+saque = int(input("\nQual valor você quer sacar? "))     # testando o pull request
 
 somaAtual = 0
 notasUtilizadas = []                                        #criado para armazenar o valor das notas utilizadas
